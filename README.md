@@ -4,8 +4,8 @@ This repository contains all the labs for the workshop. Simply click into the fo
 
 <details>
     <summary>Lab 1</summary>
-    &emsp;&emsp;<a href="./Lab 1.1 - Introduction to GAI Models.html">Lab 1.1 - Introduction to GAI Models</a><br>
-    &emsp;&emsp;<a href="./Lab 1.2 - GAI in Action.html">Lab 1.2 - GAI in Action</a>
+    &emsp;&emsp;<a href="./Lab 1/Lab 1.1 - Introduction to GAI Models.html">Lab 1.1 - Introduction to GAI Models</a><br>
+    &emsp;&emsp;<a href="./Lab 1/Lab 1.2 - GAI in Action.html">Lab 1.2 - GAI in Action</a>
 </details>
 <details>
     <summary>Lab 2</summary>
@@ -14,6 +14,6 @@ This repository contains all the labs for the workshop. Simply click into the fo
 </details>
 <details>
     <summary>Lab 3</summary>
-    &emsp;&emsp;<a href="./Lab 3.1 - Transforming Library Functions with Generative AI.html">Lab 3.1 - Transforming Library Functions with Generative AI</a><br>
+    &emsp;&emsp;<a href="./Lab 3/Lab 3.1 - Transforming Library Functions with Generative AI.html">Lab 3.1 - Transforming Library Functions with Generative AI</a><br>
     &emsp;&emsp;
 </details>
