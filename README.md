@@ -4,7 +4,7 @@ This repository contains all the labs for the workshop. Simply click into the fo
 
 <details>
     <summary>Lab 1</summary>
-    &emsp;&emsp;<a href="./Lab 1/Lab 1.1 - Introduction to GAI Tools/">Lab 1.1 - Introduction to GAI Tools</a><br>
+    &emsp;&emsp;<a href="./Lab 1/Lab 1.1 - Introduction to GAI Tools/">Lab 1.1 - Practicing Prompt Engineering</a><br>
     &emsp;&emsp;<a href="./Lab 1/Lab 1.2 - GAI in Action/">Lab 1.2 - GAI in Action</a>
 </details>
 <details>
