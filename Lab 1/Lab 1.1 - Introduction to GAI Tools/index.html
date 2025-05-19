@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Lab 1.1 - Introduction to GAI Tools</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Lab 1.1 - Prompt Engineering</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7517,7 +7517,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Lab-1.1---Introduction-to-Generative-AI-(GAI)-Tools"><strong>Lab 1.1 - Introduction to Generative AI (GAI) Tools</strong><a class="anchor-link" href="#Lab-1.1---Introduction-to-Generative-AI-(GAI)-Tools">¶</a></h1><p>AI Models with capabilities like natural language processing and computer vision must be built completely from scratch, requiring resources in terms of data, computing, and processing throughout the whole machine learning cycle.
+<h1 id="Lab-1.1---Prompt-Engineering"><strong>Lab 1.1 - Prompt Engineering</strong><a class="anchor-link" href="#Lab-1.1---Prompt-Engineering">¶</a></h1><p>AI Models with capabilities like natural language processing and computer vision must be built completely from scratch, requiring resources in terms of data, computing, and processing throughout the whole machine learning cycle.
 <br/>
 <br/>
 GAI tools are made form pre-trained models trained on vast amounts of data. They can be fine-tuned for specific tasks such as generating text, images, audio, and videos based on specific use cases. Using deep learning algorithms, these models are highly accurate at recognizing patterns and making predictions.
@@ -7612,14 +7612,17 @@ AI: Neutral
 <summary><strong><big><big>Sample Prompt (Only use if you are stuck!)</big></big></strong></summary>
 <p>
 <blockquote>
-<p>Act as a text classifier and detect the sentiment of the sentence. Only answer with the words Positive, Negative, or Neutral.<br/><br/>
-Examples:</p>
-<pre><code>User: I don't like mangoes
+<pre><code style="color:red;">
+Act as a text classifier and detect the sentiment of the sentence. Only answer with the words Positive, Negative, or Neutral.<br>
+Here are some examples of how this should look like:<br> 
+Me: I don't like mangoes
 AI: Negative
-User: I got a great grade on my final project!
+Me: I got a great grade on my final project!
 AI: Positive
-User: Oranges are an orange fruit
+Me: Oranges are an orange fruit
 AI: Neutral
+<br><br></Br>Now do the same for this sentence - "That book was terrible."
+
 </code></pre>
 </blockquote>
 </p></details></div>
