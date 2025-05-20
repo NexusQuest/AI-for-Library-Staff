@@ -15,5 +15,5 @@ This repository contains all the labs for the workshop. Simply click into the fo
 <details>
     <summary>Lab 3</summary>
     &emsp;&emsp;<a href="./Lab-3/Lab-3.1-Transforming-Library-Functions-with-Generative-AI/">Lab 3.1 - Transforming Library Functions with Generative AI</a><br>
-    &emsp;&emsp;<a href="./Lab-3/Lab-3.2-Develop-Custom-Image-Classification-Models/">Lab 3.2 - Develop Custom Image Classification Models</a>
+    &emsp;&emsp;<a href="./Lab-3/Lab-3.2-Developing-a-Custom-Image-Classification-Model/">Lab 3.2 - Developing a Custom Image Classification Model</a>
 </details>
