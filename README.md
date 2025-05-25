@@ -9,8 +9,8 @@ This repository contains all the labs for the workshop. Simply click into the fo
 </details>
 <details>
     <summary>Lab 2</summary>
-    &emsp;&emsp;<br>
-    &emsp;&emsp;
+    &emsp;&emsp;<a href="./Lab-2/Lab-2.1-Bot-or-Not-A-Dive-into-AI-Content-Detection/">Lab 2.1 - Bot or Not? A Dive into AI Content Detection</a><br>
+    &emsp;&emsp;<a href="./Lab-2/Lab-2.2-Automating-Library-Workflows-Through-Microsoft-PowerAutomate/">Lab 2.2 - Automating Library Workflows Through Microsoft PowerAutomate</a>
 </details>
 <details>
     <summary>Lab 3</summary>
