@@ -6412,7 +6412,7 @@ cell outputs.
 }
 
 .jp-Notebook .jp-Cell .jp-InputPrompt {
-  cursor: move;
+  cursor: default;
 }
 
 /*-----------------------------------------------------------------------------
@@ -7496,6 +7496,9 @@ a.anchor-link {
     margin-top: 1em;
   }
 
+  details {
+      cursor: pointer;
+  }
   .jp-RenderedMermaid-Summary {
     color: var(--jp-warn-color2);
   }
@@ -7510,7 +7513,7 @@ a.anchor-link {
   }
 </style>
 <!-- End of mermaid configuration --></head>
-<body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
+<body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light" style="user-select: none;">
 <main>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -7599,7 +7602,7 @@ To meet these challenges, Lakeside Community College Library is exploring how ge
 <details>
 <summary><strong><big><big>Sample Prompt (Only use if you are stuck!)</big></big></strong></summary>
 <p>
-<blockquote>
+<blockquote style="color:#C00000; user-select: text;">
 <p>Consider a community college library that provides academic support through research help, study spaces, events, and access to digital and physical resources. The library wants to stay relevant in a changing academic environment and better support student success. It is exploring how generative AI can be applied across library functions to enhance patron experience, streamline operations, and increase engagement.</p>
 <p>Generate ideas for how generative AI can be used to transform different functions and services in the library.</p>
 </blockquote>
@@ -7639,7 +7642,7 @@ In this exercise, you will see how generative AI can be used to segment college 
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Step-1---Enter-the-patron-data-into-ChatGPT">Step 1 - Enter the patron data into ChatGPT<a class="anchor-link" href="#Step-1---Enter-the-patron-data-into-ChatGPT">¶</a></h3><p>In the <em>same</em> chat as Exercise 1, enter the following Patron Data into ChatGPT:</p>
-<blockquote>
+<blockquote style="color:#C00000; user-select: text;">
 <p><strong><em>Fictitious Patron Data:</em></strong></p>
 <ul>
 <li><strong>Patron A</strong> is a biology professor who frequently checks out academic journals and reserves group study rooms for student research projects.</li>
@@ -7663,7 +7666,7 @@ In this exercise, you will see how generative AI can be used to segment college 
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Step-2---Segment-the-Patrons!">Step 2 - Segment the Patrons!<a class="anchor-link" href="#Step-2---Segment-the-Patrons!">¶</a></h3><p>Segmentation is the process of separating objects into groups. In this example, Lakeside Library is interested in seeing which patrons fall into different categories. ChatGPT can help with that!</p>
 <p>Enter the following prompt:</p>
-<blockquote>
+<blockquote style="color:#C00000; user-select: text;">
 <p>Based on the patron data, segment Lakeside Library users into groups such as “research-focused faculty,” “frequent student borrowers,” “digital resource users,” “career-prep seekers,” and “event participants.”</p>
 </blockquote>
 </div>
@@ -7690,7 +7693,7 @@ In this exercise, you will see how generative AI can be used to segment college 
 <details>
 <summary><strong><big><big>Sample Prompt (Only use if you are stuck!)</big></big></strong></summary>
 <p>
-<blockquote>
+<blockquote style="color:#C00000; user-select: text;">
 <p>Based on the patron segments above, generate tailored recommendations for library resources, services, or programs that Lakeside Library can offer to each group.</p>
 <p>Examples inlcude offering workshops for career-prep seekers or sending updates for academic publications for research-focused faculty.</p>
 </blockquote>
@@ -7728,14 +7731,14 @@ In this exercise, you will see how generative AI can be used to segment college 
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Step-1---Enter-the-vendor-data-into-ChatGPT">Step 1 - Enter the vendor data into ChatGPT<a class="anchor-link" href="#Step-1---Enter-the-vendor-data-into-ChatGPT">¶</a></h3><p>In the <em>same</em> chat as Exercise 2, enter the following Patron Data into ChatGPT:</p>
-<blockquote>
+<blockquote style="color:#C00000; user-select: text;">
 <p><em><strong>Fictitious Vendor Data:</strong></em></p>
 <p><strong>Vendor A (Textbook distributor):</strong></p>
 <ul>
 <li>Average delivery time: 5 days</li>
 <li>Order accuracy: 98%</li>
-<li>Cost per textbook: $48
-.*   On-time delivery rate: 95%</li>
+<li>Cost per textbook: $48</li>
+<li>On-time delivery rate: 95%</li>
 </ul>
 <p><strong>Vendor B (Library furniture supplier):</strong></p>
 <ul>
@@ -7784,7 +7787,7 @@ In this exercise, you will see how generative AI can be used to segment college 
 <details>
 <summary><strong><big><big>Sample Prompt (Only use if you are stuck!)</big></big></strong></summary>
 <p>
-<blockquote>
+<blockquote style="color:#C00000; user-select: text;">
 <p>Lakeside Community College Library is evaluating four vendors based on delivery time, quality, cost, and reliability. Based on the data, act as a knowledgeable consultant to analyze and compare each vendor’s performance. Recommend the most suitable vendor(s) for ongoing partnerships and explain the rationale behind your recommendation.</p>
 </blockquote>
 </p></details></div>
@@ -7828,7 +7831,7 @@ In this exercise, you will see how generative AI can be used to segment college 
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Step-1---Enter-the-usage-data-into-ChatGPT">Step 1 - Enter the usage data into ChatGPT<a class="anchor-link" href="#Step-1---Enter-the-usage-data-into-ChatGPT">¶</a></h3><p>In the <em>same</em> chat as Exercise 3, enter the following Patron Data into ChatGPT:</p>
-<blockquote>
+<blockquote style="color:#C00000; user-select: text;">
 <p><em><strong>Fictitious Historical Usage Data (36 months from January):</strong></em></p>
 <ul>
 <li><strong>Resource A (Laptops):</strong><br/>[50, 55, 85, 120, 150, 30, 25, 40, 70, 100, 130, 140, 52, 57, 88, 123, 153, 32, 28, 42, 73, 102, 132, 142, 54, 60, 90, 125, 155, 34, 30, 45, 75, 105, 135, 145]</li>
@@ -7866,7 +7869,7 @@ In this exercise, you will see how generative AI can be used to segment college 
 <details>
 <summary><strong><big><big>Sample Prompt (Only use if you are stuck!)</big></big></strong></summary>
 <p>
-<blockquote>
+<blockquote style="color:#C00000; user-select: text;">
 <p>Analyze the historical usage data (36 months of data starting from January) and student feedback for trends in the college library and predict future demand for laptops, study rooms, and textbooks at Lakeside Community College Library. Include possible rationale behind the trends</p>
 </blockquote>
 </p></details></div>
@@ -7910,7 +7913,7 @@ In this exercise, you will see how generative AI can be used to segment college 
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Step-1:-Write-Prompt">Step 1: Write Prompt<a class="anchor-link" href="#Step-1:-Write-Prompt">¶</a></h3><p>In the <em>same</em> chat as Exercise 4, copy the following prompt:</p>
-<blockquote>
+<blockquote style="color:#C00000; user-select: text;">
 <p>Imagine you are an AI-powered virtual assistant for Lakeside Community College Library. You help students locate books, check laptop and study room availability, recommend resources based on subject areas, and answer questions about library services. If you don’t have enough information to answer, kindly direct the user to speak with the library staff.</p>
 <p>Data About Library Resources:</p>
 <ol>
@@ -7948,7 +7951,7 @@ In this exercise, you will see how generative AI can be used to segment college 
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Step-2:-Chat-with-the-bot!">Step 2: Chat with the bot!<a class="anchor-link" href="#Step-2:-Chat-with-the-bot!">¶</a></h3><p>Now that we have given ChatGPT the instructions, chat with it as if you are a student!</p>
 <p>For example, try:</p>
-<blockquote>
+<blockquote style="color:#C00000; user-select: text;">
 <p>Hi, I need to find a book on psychology for my class. Can you help me?</p>
 </blockquote>
 </div>
